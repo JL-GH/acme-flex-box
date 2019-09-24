@@ -2,3 +2,30 @@
   flex-direction: column;
 
 }
+
+#acme{
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial;
+}
+.heading {
+  padding: 1rem;
+  background-color: dodgerblue;
+  
+}
+
+.bold {
+  font-weight:bold;
+
+}
+
+.box {
+  border: 1px solid black;
+  padding: 1rem; 
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
