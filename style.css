@@ -24,7 +24,6 @@ body {
 
 .bold {
   font-weight:bold;
-
 }
 
 .box {
@@ -36,9 +35,27 @@ body {
   justify-content: center;
   text-align: left;
   margin: 0, 1rem, 0, 0;
+  border-radius: 5px;
 }
 
+.newbox {
+  display: flex; 
+  justify-content: center;
 
+}
+
+label {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom:10px;
+}
+input {
+  width: 50%;
+}
 .madeUsers {
   margin: 1rem;
   border: 1px solid black;
@@ -49,6 +66,7 @@ body {
   justify-content: space-around; */
   font-size: 12px;
   text-align: center;
+  border-radius:10px;
 }
 
 .madeUsers > div.userA {
