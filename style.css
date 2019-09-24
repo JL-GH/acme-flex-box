@@ -13,7 +13,13 @@ body {
 .heading {
   padding: 1rem;
   background-color: dodgerblue;
-  
+  font-size: 12px;
+  display:flex;
+  justify-content: space-between;
+  color: white;
+}
+.heading > span.title{
+  font-size: 20px;
 }
 
 .bold {
@@ -23,9 +29,39 @@ body {
 
 .box {
   border: 1px solid black;
-  padding: 1rem; 
+  padding: 1rem;
   width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: left;
+  margin: 0, 1rem, 0, 0;
+}
+
+
+.madeUsers {
+  margin: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 200px;
+  display: block;
+  /* flex-direction: vertical;
+  justify-content: space-around; */
+  font-size: 12px;
+  text-align: center;
+}
+
+.madeUsers > div.userA {
+  margin: 1rem;
+  background-color:tomato;
+}
+
+.title {
+  font-size: 20px;
+}
+
+#madeUsersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
